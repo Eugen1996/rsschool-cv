@@ -25,7 +25,6 @@ function century(year) {
   } else { 
     return (year / 100);  
   }
-  return;
 }     
 ```    
 ### Experience
