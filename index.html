@@ -4,25 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>CV</title>
 </head>
 <body>
     <header>
-        <h1>Trainee Front-end Developer</h1>
-        <h2>Eugen Sadkovski</h2>
-    </header>
-    <main>
-
-    <article> 
-        <p>About me 
-        My goal is to become a good front-end developer. 
+        <div class="container1">
+            <h1>Trainee Front-end Developer</h1>
+            <h2>Eugen Sadkovski</h2>
+        </div>
+        <img class="cat" src="logo.png" alt="logo" width="300" height="300">
+        </header>
+    <main> 
+              
+     <article> 
+         <h3 class="top">About me</h3>
+        <p> My goal is to become a good front-end developer. 
         The rsschool courses  is my first serious programming experience 
         and I am determined and motivated to complete it successfully.
         </p>    
     </article>
     
     <section>
-        Contact
+        <h3>Contact</h3>
         <ul>
             <li>+375-(25)-759-66-39</li>
             <li>Mail: eugensadkovskiy@gmail.com</li>
@@ -31,18 +35,17 @@
     </section>
     
     <section>
-        Skills
-    
+        <h3>Skills</h3>
         <ul>
             <li> HTML5</li>
             <li>CSS3</li>
             <li>JavaScript</li>
         </ul>
     </section> 
-    
-    <section> Code example
-    
-   <p> <mark>
+
+    <section> 
+        <h3 class="codeexample">Code example</h3>
+   <p > <code>
         function century(year) {
       let a = year % 100;
       if (a !== 0){
@@ -51,10 +54,10 @@
         return (year / 100);  
       }
     }
-    </mark> </p>    
+    </code> </p>    
     </section>    
      <section>
-         Experience
+         <h3>Experience</h3>
          <ul>
             <li><a href="https://www.codewars.com/users/Eugen1996">Codewars</a></li> 
             <li><a href="https://htmlacademy.ru/">HTML-academy</a>
@@ -70,16 +73,21 @@
                     <p>HTML</p>
                     <p>CSS</p>
                     <p>JavaScript</p>
+                </details>
              </li> 
         </ul>
     </section>
-    Education:
-    Belarusian National Technnical University
-    
-    English level: A2
-    <footer>
-        <img src="https://rs.school/images/rs_school_js.svg" height="100"   width="200">
-    </footer>
+    <section>
+        <h3>Education</h3>
+        <p>Belarusian National Technnical University</p>
+    </section>
+    <section>
+        <h3>English level</h3>
+        <p class="foot">A2</p>
+    </section>
 </main>
+    <footer>
+       <a href="https://rs.school/js/"><img src="rs_school_js.svg" height="100"   width="200" alt="link"></a>
+    </footer>
 </body>
 </html>
